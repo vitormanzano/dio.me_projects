@@ -1,3 +1,2 @@
-# Projeto 01 html
-# dio.me 
+# Projetos dio
 # Vitor Manzano

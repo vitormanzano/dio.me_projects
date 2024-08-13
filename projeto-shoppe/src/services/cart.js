@@ -6,10 +6,10 @@ async function addItem(userCart,item){
 
 //deletar item do carrinho
 async function deleteItem(userCart,name){
-    const index = userCart.findIndex((item) => item.name === name);
+    const index = userCart.findIndex((item) => item.name === name); //se o item.name for igual o name paramêtro
 
     if (index!== -1){
-        userCart.splice(index,1);
+        userCart.splice(index,1); //"slice" Corta 1 na frente posicao index, ou seja, corta  a posição index apenas! 
     }
 
 }

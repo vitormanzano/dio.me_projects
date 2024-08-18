@@ -1,1 +1,1 @@
-Trabalho Mario Kart, apenad Javascript. 
+Trabalho Mario Kart, apenas Javascript. 

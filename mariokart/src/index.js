@@ -30,6 +30,15 @@ const player4 = {
     PONTOS: 0
 }
 
+const player5 = {
+    NOME: "Donkey Kong",
+    VELOCIDADE: 2,
+    MANOBRABILIDADE: 2,
+    PODER: 5,
+    PONTOS: 0
+}
+
+
 
 async function rollDice(){
     return Math.floor( Math.random() * 6) + 1;

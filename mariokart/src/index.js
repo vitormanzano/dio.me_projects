@@ -127,11 +127,6 @@ async function playRaceEngine(character1 , character2){
             character2.MANOBRABILIDADE
         )
 
-
-
-
-
-
     }
     if(block === "CONFRONTO"){
         let powerResult1 = diceResult1 + character1.PODER

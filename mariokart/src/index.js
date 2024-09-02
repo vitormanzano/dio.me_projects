@@ -167,8 +167,6 @@ async function playRaceEngine(character1 , character2){
     console.log(powerResult1===powerResult2 ? "Confronto empatado" : "")  
    
          
-
-
     }
     //verificando o vencedor
     if(totalTestSkill1> totalTestSkill2){

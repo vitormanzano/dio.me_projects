@@ -15,7 +15,6 @@ async function deleteItem(userCart,name){
 }
 
 
-
 //remover item(quantidade)
 async function removeItem(userCart,index){
     const indexFound = usercart.findIndex((p) => p.name === item.name)

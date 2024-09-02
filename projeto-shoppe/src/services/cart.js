@@ -24,7 +24,6 @@ async function removeItem(userCart,index){
 
         //item >1 subtrair, = 1 deletar
 
-        
     }
     if(userCart[indexFound].quantity > 1){
         usercart[indexFound].quantity -=1;

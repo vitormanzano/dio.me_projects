@@ -41,7 +41,6 @@ async function removeItem(userCart,index){
 
 
 
-
 //calcular o total de itens
 async function calculateTotal(userCart){
     const result  = userCart.reduce((total,item) => total + item.subtotal(),0) //interage com os itens e reduz aum valor

@@ -47,8 +47,6 @@ const player6 = {
 }
 
 
-
-
 async function rollDice(){
     return Math.floor( Math.random() * 6) + 1;
 }

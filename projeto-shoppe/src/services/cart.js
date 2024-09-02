@@ -58,7 +58,6 @@ async function displayCart(userCart){
     
 }
 
-
 export {
     addItem,calculateTotal,deleteItem,removeItem,displayCart
 }

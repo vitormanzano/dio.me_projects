@@ -196,7 +196,6 @@ async function declareWinner(character1,character2){
 
 }
 
-
 (async function main(){
     console.log(
         `🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`

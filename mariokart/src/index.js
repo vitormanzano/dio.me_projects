@@ -86,7 +86,6 @@ async function playRaceEngine(character1 , character2){
         let block = await getRandomBlock()
         console.log(`Bloco: ${block}`)
 
-        
     //rolar os dados
 
     let diceResult1 = await rollDice()

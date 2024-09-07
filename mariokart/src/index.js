@@ -152,8 +152,7 @@ async function playRaceEngine(character1 , character2){
         character1.PONTOS--
 
     }
-
-    
+            
     console.log(powerResult1===powerResult2 ? "Confronto empatado" : "")  
         
     }

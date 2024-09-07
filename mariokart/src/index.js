@@ -1,4 +1,4 @@
-    const player1 = {
+        const player1 = {
     NOME: "Mario",
     VELOCIDADE: 4,
     MANOBRABILIDADE: 3,
@@ -155,8 +155,7 @@ async function playRaceEngine(character1 , character2){
 
     
     console.log(powerResult1===powerResult2 ? "Confronto empatado" : "")  
-   
-         
+        
     }
     //verificando o vencedor
     if(totalTestSkill1> totalTestSkill2){

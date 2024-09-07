@@ -18,7 +18,6 @@ await cartService.displayCart(myCart);
 
 //await cartService.deleteItem(myCart,item2.name);
 //await cartService.deleteItem(myCart,item1.name);
-
 //console.log(item2.subtotal()) pega sub total do item 2
 
 console.log("Shopee Cart TOTAL IS: ");

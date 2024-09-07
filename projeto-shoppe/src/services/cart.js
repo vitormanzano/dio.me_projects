@@ -53,7 +53,6 @@ async function displayCart(userCart){
 
     })
         
-    
 }
 
 export {

@@ -16,10 +16,11 @@ void menu(){
     char c;
     float valor1 = obterValor();
     getchar();
+    
     printf("Digite a operação desejada(+, -, x, /: ");
     scanf("%c",&c);
+    
     float valor2 = obterValor();
-
     double resultado = calcularValor(valor1,valor2, c);
     printf("\n%lf",resultado);    
 }

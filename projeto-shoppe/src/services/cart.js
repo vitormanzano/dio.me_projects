@@ -38,16 +38,13 @@ async function removeItem(userCart,index){
 async function calculateTotal(userCart){
     const result  = userCart.reduce((total,item) => total + item.subtotal(),0) //interage com os itens e reduz aum valor
     console.log(`\n🛒 ${result}`);
-
 }
 
 async function displayCart(userCart){
     console.log("\nShopee cart list: ")
     userCart.forEach((item,index) => {
         console.log(`${index + 1}. ${item.name} -  R$ ${item.price} | ${item.quantity}x | Subtotal = ${item.subtotal()}`)
-
-    })
-        
+    })     
 }
 
 export {

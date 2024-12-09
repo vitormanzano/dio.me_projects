@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins&family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --primary-color: #B9001F;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}

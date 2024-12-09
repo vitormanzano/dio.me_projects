@@ -8,9 +8,7 @@ import { FilterPodcastModel } from '../models/filter-podcast-model';
 
 const DEFAULT_CONTENT = {"content-type": contentType.JSON};
 
-
 export const getListEpisodes = async (req: IncomingMessage, res: ServerResponse) => {
-
 
     const content: FilterPodcastModel = await serviceListEpisodes()
     res.writeHead(StatusCode.OK,DEFAULT_CONTENT);

@@ -6,8 +6,6 @@ import handler from "./handle.js";
 async function createQRCode(){
     prompt.get(schemaQrCode, handler);
     prompt.start();
-    
-
 }
 
 export default createQRCode

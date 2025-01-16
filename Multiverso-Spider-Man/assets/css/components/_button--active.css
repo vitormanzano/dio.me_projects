@@ -1,0 +1,6 @@
+.s-controller__button--active {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    outline: 0.125rem solid #fff;
+}
